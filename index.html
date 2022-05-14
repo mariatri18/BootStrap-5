@@ -71,7 +71,14 @@
                         <div class="display-6">Beware the Green People. They are up to something…</div>
                     </h1>
                     <p class="lead my-4 text-muted"> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
+
+                    <div class="col-md-4">
+                        <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
+
+                        <a href="#sidebar" class="d-block mt-3 btn btn-secondary" data-bs-toggle="offcanvas"
+                            role="button" aria-controls="sidebar">Explore other books
+                        </a>
+                    </div>
                 </div>
                 <div class="col-md-5 text-center d-none d-md-block">
                     <span class="tt" data-bs-placement="right" title="Book Cover">
@@ -458,6 +465,20 @@
                     <button class="btn btn-primary">Submit</button>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <!-- offcanvas -->
+    <div class="offcanvas offcanvas-start" tabindex="1" id="sidebar" aria-labelledby="sidebar-label">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="sidebar-label">Other Books</h5>
+            <button class="btn-close" type="button" data-bs-dismiss="offcanvas" aria-label="Close">
+            </button>
+        </div>
+        <div class="offcanvas-body">
+            <i class="bi bi-x-octagon"></i>
+            <p>Still working on it</p>
+
         </div>
     </div>
 
