@@ -13,6 +13,10 @@
         section {
             padding: 60px 0;
         }
+
+        #explore {
+            padding: 0.7rem;
+        }
     </style>
 
 </head>
@@ -71,14 +75,19 @@
                         <div class="display-6">Beware the Green People. They are up to something…</div>
                     </h1>
                     <p class="lead my-4 text-muted"> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-
-                    <div class="col-md-4">
-                        <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
-
-                        <a href="#sidebar" class="d-block mt-3 btn btn-secondary" data-bs-toggle="offcanvas"
-                            role="button" aria-controls="sidebar">Explore other books
-                        </a>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="#sidebar" id="explore" class="d-block btn btn-secondary"
+                                    data-bs-toggle="offcanvas" role="button" aria-controls="sidebar">Explore other books
+                                </a>
+                            </div>
+                        </div>
                     </div>
+
                 </div>
                 <div class="col-md-5 text-center d-none d-md-block">
                     <span class="tt" data-bs-placement="right" title="Book Cover">
@@ -478,6 +487,20 @@
         <div class="offcanvas-body">
             <i class="bi bi-x-octagon"></i>
             <p>Still working on it</p>
+
+            <!-- dropdown-->
+            <div class="dropdown mt-3">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="book-dropdown"
+                    data-bs-toggle="dropdown">
+                    Choose a book title
+                </button>
+                    <ul class="dropdown-menu" aria-labelledby="book-dropdown">
+                            <li><a href="#" class="dropdown-item">The five warriors</a><li>
+                            <li><a href="#" class="dropdown-item">The blended ones</a><li>
+                            <li><a href="#" class="dropdown-item">Eliesmore & the green stone</a><li>
+                    </ul>
+                </div>
+            </div>
 
         </div>
     </div>
