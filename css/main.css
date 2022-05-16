@@ -1,0 +1,31 @@
+section {
+    padding: 60px 0;
+}
+
+#explore {
+    padding: 0.7rem;
+}
+
+.btn-secondary,
+.btn-primary {
+    color: #fff;
+    background-color: #6610f2;
+    border-color: #6610f2;
+}
+
+.btn-primary:hover {
+    background-color: #6c757d;
+}
+
+.text-primary {
+    color: #6610f2 !important;
+}
+
+.border-primary {
+    border-color: #6610f2 !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #6610f2;
+    background-color: #b28cef82;
+}
